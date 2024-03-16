@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="index.css">
 
     <div class="container-fluid">
-        <h2 class="title">Bootstrap Booking Form:</h2>
-        <div class="well">Fill out the form and hit the submit button when complete...</div>
+        <div class="col-sm-12">
+            <h2 class="title">Bootstrap Booking Form:</h2>
+            <div class="well">Fill out the form and hit the submit button when complete...</div>
+        </div>
         <form class="form-horizontal" id="form">
             <div class="col-sm-6">
-                
                 <!-- User panel -->
                 <div class="panel panel-primary">
                     <div class="panel-heading"><b>User:</b></div>
@@ -152,9 +153,11 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <!-- Line and buttons -->
+            <div class="col-sm-12"><hr>
                 <div class="form-group">
-                    <div class="col-sm-12">
+                    <div class="col-sm-6 col-sm-offset-6">
                         <button type="button" class="btn btn-primary col-sm-4 col-sm-offset-3" id="resetButton"><i class="fa fa-eraser"></i> Reset</button>
                         <button type="submit" class="btn btn-success col-sm-4 col-sm-offset-1" id="submitButton"><i class="fa fa-paper-plane"></i> Submit</button>
                     </div>
